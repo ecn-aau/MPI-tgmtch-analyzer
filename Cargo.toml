@@ -1,0 +1,9 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/app",
+    "crates/traceparsers",
+    "crates/traceback",
+    "crates/hash",
+    "crates/hash-impl/*",
+]
